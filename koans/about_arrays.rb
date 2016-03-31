@@ -46,7 +46,7 @@ class AboutArrays < Neo::Koan
   end
 
   def test_arrays_and_ranges
-    puts (1..5).class
+    # puts (1..5).class
     assert_equal Range, (1..5).class
     assert_not_equal [1,2,3,4,5], (1..5)
     assert_equal [1,2,3,4,5], (1..5).to_a
